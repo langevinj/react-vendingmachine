@@ -4,17 +4,17 @@ import VendingMachine from './VendingMachine'
 import Candy from './Candy'
 import Popcorn from './Popcorn'
 import Soda from './Soda'
-
+import NavBar from "./NavBar"
 import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <NavBar />
       <Route exact path="/">
           <VendingMachine />
       </Route>
-      
         <Route exact path="/candy">
           <Candy />
         </Route>

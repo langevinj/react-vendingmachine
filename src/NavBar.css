@@ -1,0 +1,14 @@
+.nav-link{
+    display: inline;
+    margin-right: 7px;
+    padding-left: 20px;
+}
+
+nav{
+    background: rgba(205, 205, 255, 0.5);
+}
+
+.navbar-container{
+    text-align: left;
+}
+
