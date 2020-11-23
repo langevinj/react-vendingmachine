@@ -1,0 +1,18 @@
+.VendingMachine {
+    background-image: url("https://api.time.com/wp-content/uploads/2014/07/vending-machine.jpg");
+    background-size: cover;
+    display: block;
+    height: 100em;
+}
+
+.NavBar{
+    background: rgba(250, 255, 255, 0.80);
+    display: inline-block;
+    padding: 2em;
+    margin-top: 15em;
+    font-size: 2em;
+}
+
+.link:hover {
+    color: white;
+}
